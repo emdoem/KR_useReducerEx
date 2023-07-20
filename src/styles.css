@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.Shop {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Product {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 0 10px 10px 10px;
+  margin: 15px 0;
+}
+
+.Cart {
+  background-color: #eee;
+  height: 100vh;
+  padding: 0 10px;
+}
+td {
+  text-align: right;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+a {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
